@@ -42,7 +42,7 @@ const labels=['2018-11-17','2018-11-18', '2018-11-19', '2018-11-20', '2018-11-21
           };
   return (
     <>
-    <div style={{height:'30%',width:'18%',marginTop:'0.25%',marginLeft:'1%'}}>
+    <div style={{height:'42%',width:'30%',marginTop:'1%',marginLeft:'11%'}}>
     <p style={{fontSize:'20px',marginLeft:'38%'}}><b>First Response Tiime</b></p>
     <h4 style={{color:'#B75CFF',marginLeft:'28%',marginTop:'-10px'}}>1hr 17min (Month: 1hr 38min)</h4><Line data={data1} options={options}/>
     <p style={{fontSize:'20px',marginTop:'1%',marginLeft:'38%'}}><b>First Resolution Tiime</b></p><h4 style={{color:'yellowgreen',marginLeft:'28%',marginTop:'-12px'}}>1hr 17min (Month: 1hr 38min)</h4><Line data={data2} options={options}/>

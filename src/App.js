@@ -8,10 +8,9 @@ function App() {
     <>
       <Navbar/>
       <Tab/>
-      <div className="nav justify-content-centre" style={{width:'180%',height:'100%'}}><Barchart/><Linechart/></div>
+      <div className="nav justify-content-centre"><Barchart/><Linechart /></div>
       
     </>
   );
 }
-
 export default App;

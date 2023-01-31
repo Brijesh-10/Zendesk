@@ -42,7 +42,7 @@ const options = {
         ],
         }
     return(
-      <> <div className="my-5"style={{ width:'35%',height:'50%',marginLeft:'15px'}}>
+      <> <div className="my-5"style={{ width:'55%',height:'80%',marginLeft:'15px'}}>
       <p style={{fontSize:'20px',marginLeft:'30%'}}><b>Tickets Solved by Agent</b></p>
           <Bar data={data} options={options} />
        </div></>
